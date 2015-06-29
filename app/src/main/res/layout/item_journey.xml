@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:id="@+id/textView33"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="region"
+                android:id="@+id/textView2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/regionTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user_id:"
+                android:id="@+id/textView5"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userIdTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created At:"
+                android:id="@+id/textView12"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/createdAtTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distanceString"
+                android:id="@+id/textView8"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/distanceTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/currencyString"
+                android:id="@+id/textView11"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/currencyTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discountString"
+                android:id="@+id/textView13"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/discountTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start Long:"
+                android:id="@+id/textView16"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/startLongTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="end Long:"
+                android:id="@+id/textView34"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endLongTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start Lat:"
+                android:id="@+id/textView18"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/startLatTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="end Lat:"
+                android:id="@+id/textView15"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endLatTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/durationString"
+                android:id="@+id/textView3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/durationTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priceString"
+                android:id="@+id/textView7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totalPriceString"
+                android:id="@+id/textView9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalPriceTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

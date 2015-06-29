@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CodingChallenge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="GenerateReportText">Generate Report</string>
+    <string name="distanceString">Distance:</string>
+    <string name="durationString">Duration:</string>
+    <string name="currencyString">Currency:</string>
+    <string name="discountString">Discount:</string>
+    <string name="priceString">Price:</string>
+    <string name="totalPriceString">Final Price:</string>
+    <string name="reportResults">Report Results</string>
+</resources>
